@@ -63,26 +63,20 @@ select {
 }
 
 .seat.selected {
-  background-color: #C70039;
+  background-color: #ACE067;
 }
 
 .seat.occupied {
-  background-color: #ACE067;
+  background-color: #db6486;
 }
 
 .seat:nth-of-type(2) {
   margin-right: 20px;
 }
 
-/* 
-.seat:nth-of-type(6) {
-  margin-right: 20px;
-} 
-*/
-
 .seat:nth-last-of-type(2) {
   margin-left: 20px;
-} 
+}
 
 .seat:not(.occupied):hover {
   cursor: pointer;
@@ -96,8 +90,8 @@ select {
 
 .showcase {
   background-color: #E0BA67;
-/* This removes the bullet points */
-  list-style-type:none;
+  /* This removes the bullet points */
+  list-style-type: none;
   padding: 5px 10px;
   border-radius: 5px;
   display: flex;
@@ -108,7 +102,7 @@ select {
 .showcase li {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   margin: 0 10px;
 }
 
